@@ -1,0 +1,81 @@
+[Steven Toscano - 2009]
+
+I wrote this code for an interview with Blizzard Entertainment.  The original request in email is listed below.  The project took on a life of its own and I wrote a C++ version with a WPF UI.
+
+Here is the logged time it took me to write the first C# console version of the code.
+
+Start algorithm write up			4-5-09 @09:40AM
+Bathroom break					4-5-09 @10:21AM
+Bathroom break done				4-5-09 @10:33AM
+Math for board done				4-5-09 @10:40AM
+Math for position after move			4-5-09 @11:10AM
+Start coding					4-5-09 @11:13AM
+Phone call start				4-5-09 @11:25AM
+Phone call end					4-5-09 @11:31AM
+Board initialization start			4-5-09 @11:31AM
+Board initialization done			4-5-09 @12:54PM
+Printing of board almost			4-5-09 @01:28PM
+Lunch break start				4-5-09 @01:28PM
+Lunch break end					4-5-09 @04:03PM
+Implemented board layout with row toggle	4-5-09 @04:37PM
+Board layout with piece placement done		4-5-09 @05:00PM
+Code cleanup done				4-5-09 @05:09PM
+Figured out C# abstract for player base class	4-5-09 @05:37PM
+Got game running all coded, bugs in moves	4-5-09 @08:58PM
+Bugs fixed, done				4-5-09 @09:59PM
+Working!!!					4-5-09 @11:09PM
+
+Music I listed to while coding: Madlib, Quasimoto, Q-Tip, Jay Dee, Pete Rock, DJ Premier
+
+--- Begin Email ---
+
+from: Melissa Meyer <mmeyer@blizzard.com>
+to: "sltoscano@gmail.com" <sltoscano@gmail.com>
+cc: Kriste Stull <kstull@blizzard.com>
+
+date: Tue, Mar 31, 2009 at 2:04 PM
+subject: Blizzard (Platform Tech) Programming Test
+mailed-by: blizzard.com
+
+Steven,
+ 
+We’ve recently reviewed your resume, and were hoping to learn more about you.  We’d like to do this in two parts.  Shortly we will be scheduling a phone conversation with you in order to get to know you a bit better.  In the mean time, I was wondering if you would take the following test for us.  The test involves writing a checkers program.  This test should take up to 4 hours to complete.  If you could send us your code next Monday (April 6th), we’d really appreciate it.  If you need more time, no worries!  We understand that you probably have things going on in life … just let me know when you can return the results.
+ 
+Thanks again!  
+ 
+------
+ 
+Problem: Write a Checkers subset 
+ Write a program that can play a legal game of Checkers Lite. The computer makes 
+legal moves (random legal moves are acceptable for this checkers "AI").
+The human player is not allowed to make illegal moves.
+ Checkers Lite is the same as American Checkers (also known as 
+English draughts) except there is no promotion to king by moving a piece to the last 
+rank (therefore stalemate is possible). Pieces move along diagonals, and jumps must 
+be taken, and the board is 8 x 8. See http://en.wikipedia.org/wiki/Checkers if you 
+need a refresher on the rules.
+ 
+Your program should show the game board after each move. 
+ If there are no legal moves, or one side is eliminated, the game is over. 
+  Suggested board output format as ASCII - use . for empty square, X for black, O for white. The 
+initial board layout might look like this 
+. X . X . X . X 
+X . X . X . X . 
+. X . X . X . X 
+. . . . . . . . 
+. . . . . . . . 
+O . O . O . O . 
+. O . O . O . O 
+O . O . O . O . 
+  This should take you between 1 and 4 hours to complete. Please present a working 
+program along with the amount of time you spent on the program. You can do this
+as a command-line program if you like (that's completely acceptable), or you can do
+it as a GUI program, but a working program in 4 hours or less is your mandate.
+ 
+Regards,
+ 
+Melissa Meyer
+Senior Producer, Platform Technology
+Blizzard Entertainment
+
+--- End Email ---
